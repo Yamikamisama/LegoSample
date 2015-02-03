@@ -1,0 +1,2 @@
+# LegoSample
+Hackerati Assignment Sample
