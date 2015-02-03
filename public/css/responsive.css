@@ -1,0 +1,143 @@
+/********************/
+/*   Huge screens   */
+/********************/
+@media only screen and (max-width: 1440px) {
+    .owl-item {
+        width: 100%
+    }
+    #nav_list #small {
+        display: none;
+    }
+}
+
+
+/*****************************/
+/*   normal desktop screen   */
+/*****************************/
+@media only screen and (max-width: 1300px) {
+    .owl-item {
+        width: 100%
+    }
+    #nav_list #large {
+        display: none;
+    }
+    #nav_list #small {
+        display: block;
+    }
+}
+#center_view {
+    height: 414px;
+    margin: 0 2.5 0 0;
+}
+.twitter-timeline {
+    height: 414px;
+}
+#owl-demo .item img {
+    width: 100%;
+    height: 414px;
+}
+
+
+/************************/
+/*   ipad and Tablets   */
+/************************/
+@media only screen and (max-width: 1020px) {
+    #right_twitter {
+        display: none
+    }
+    #center_view {
+        width: 90%;
+        height: 350px;
+        margin: -70% 5% 0 5%;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    .owl-carousel .owl-item {
+        width: 100%;
+    }
+    #owl-demo .item img {
+        width: 100%;
+        height: 350px;
+    }
+    #left_nav {
+        width: 100%;
+        height: 100%;
+        margin-left: 6%;
+    }
+    #left_nav h2 {
+        font-size: 2em
+    }
+    #left_nav li {
+        width: 16%;
+        margin: 0;
+    }
+    #footer_icons {
+        margin: 67% 0 0 25%
+    }
+    #footer_icons li {
+        width: 10%;
+    }
+        #bio{
+        height: 20em;
+    }
+}
+
+
+/*************************/
+/*   iphone breakpoint   */
+/*************************/
+@media only screen and (max-width: 640px) {
+    #center_view {
+        height: 350px;
+    }
+    #small {
+        display: none;
+    }
+    #left_nav{
+        margin-left: 2.5%;
+    }
+    #center_view {
+        width: 90%;
+        height: 350px;
+        margin: -75% 5% 0 5%;
+    }
+    #footer_icons {
+        margin: 70% 0 0 25%
+    }
+    #owl-demo .item img {
+        width: 100%;
+        height: 350px;
+    }
+}
+
+
+/*********************/
+/*   Small Devices   */
+/*********************/
+@media only screen and (max-width: 570px) {
+    #center_view {
+        width: 95%;
+        height: 250px;
+        margin: -100% 2.5% 0 2.5%;
+    }
+    #small {
+        display: none;
+    }
+    #owl-demo .item img {
+        width: 100%;
+        height: 250px;
+    }
+     #left_nav h2 {
+        font-size: 1em;
+    }
+    #footer_icons {
+        margin: 95% 0 0 25%
+    }
+    h1{
+        font-size:3em;
+    }
+     #bio{
+        height: 14em;
+    }
+}
